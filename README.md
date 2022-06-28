@@ -2,6 +2,8 @@
 Diese Vorlage ist fertig eingerichtet für die Erstellung des Praktikumsberichts 5. Semester KWM.
 Weitere Vorlagen für die Bachelorarbeit sind verfügbar unter: https://github.com/Digital-Media/HagenbergThesis
 
+Editieren und erstellen von Dokumenten (auch kollaborative online möglich) mit https://overleaf.com/
+
 ## LaTex Befehle
 ```latex
 \include{folder/filename} % File einfügen (Kapitel in eigenem File)
