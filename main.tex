@@ -1,0 +1,92 @@
+%%% Einfaches Template für einen Abschlussbericht zum Berufspraktikum
+%% äöüÄÖÜß  <-- keine deutschen Umlaute hier? UTF-faehigen Editor verwenden!
+
+
+
+%%% Magic Comments zum Setzen der korrekten Parameter in kompatiblen IDEs
+% !TeX encoding = utf8
+% !TeX program = pdflatex 
+% !TeX spellcheck = de_DE
+% !BIB program = biber
+
+\documentclass[internship,german,smartquotes]{hgbthesis}
+% Zulässige Optionen in [..]: 
+%    Typ der Arbeit: 'diploma', 'master' (default), 'bachelor', 'internship' 
+%    Hauptsprache: 'german' (default), 'english'
+%    Option zur Umwandlung in typografische Anführungszeichen: 'smartquotes'
+%    APA Zitierstil: 'apa'
+%%%-----------------------------------------------------------------------------
+
+\usepackage{wrapfig}
+
+\RequirePackage[utf8]{inputenc} % bei Verw. von lualatex oder xelatex entfernen!
+
+\graphicspath{{images/}}  % Verzeichnis mit Bildern und Grafiken
+\logofile{logo}           % Logo-Datei: images/logo.pdf (kein Logo: \logofile{})
+\bibliography{references} % Biblatex-Literaturdatei (references.bib)
+
+%%%-----------------------------------------------------------------------------
+% Angaben für die Titelei (Titelseite, Erklärung etc.)
+%%%-----------------------------------------------------------------------------
+
+\title{Endbericht zum Berufspraktikum bei Studio Mitte}
+\author{Jakob K.\ Osterberger}
+
+\programtype{Fachhochschul-Bachelorstudiengang}
+\programname{Kommunikation, Wissen, Medien}
+\placeofstudy{Hagenberg}
+
+\dateofsubmission{2023}{07}{20}
+\advisor{Johannes Schönböck M.A.}
+\companyName{%
+   Studio Mitte GmbH\\
+   Online Division\\
+   Hubertusgasse 3a, 1020 Wien
+}
+\companyUrl{www.studiomitte.at}
+
+\strictlicense % für Creative Commons 4.0 auskommentieren
+
+%%%-----------------------------------------------------------------------------
+\begin{document}
+%%%-----------------------------------------------------------------------------
+
+%%%-----------------------------------------------------------------------------
+\frontmatter                                       % Titelei (röm. Seitenzahlen)
+%%%-----------------------------------------------------------------------------
+
+\maketitle
+\tableofcontents
+
+%%%-----------------------------------------------------------------------------
+
+\include{chapters/kurzfassung}
+
+%%%-----------------------------------------------------------------------------
+\mainmatter                             % Hauptteil (ab hier arab. Seitenzahlen)
+%%%-----------------------------------------------------------------------------
+
+\include{chapters/company}
+
+%%%-----------------------------------------------------------------------------
+
+\include{chapters/projects}
+
+%%%-----------------------------------------------------------------------------
+
+\include{chapters/projectexamples}     
+
+%%%-----------------------------------------------------------------------------
+
+\include{chapters/summary}
+
+%%%-----------------------------------------------------------------------------
+%\backmatter        % Schlussteil (nur bei Verwendung des Quellenverzeichnisses)
+%%%-----------------------------------------------------------------------------
+
+\MakeBibliography[nosplit] % Quellenverzeichnis (sofern notwendig, sonst weglassen)
+
+\listoffigures
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+
+\end{document}
