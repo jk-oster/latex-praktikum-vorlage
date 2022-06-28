@@ -1,5 +1,6 @@
 # latex - Praktikums Bericht - Vorlage
 Diese Vorlage ist fertig eingerichtet für die Erstellung des Praktikumsberichts 5. Semester KWM.
+Weitere Vorlagen für die Bachelorarbeit sind verfügbar unter: https://github.com/Digital-Media/HagenbergThesis
 
 ## LaTex Befehle
 ```latex
