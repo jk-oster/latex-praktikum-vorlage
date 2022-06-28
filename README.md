@@ -1,4 +1,5 @@
-# latex-praktikum-bsp
+# latex - Praktikums Bericht - Vorlage
+Diese Vorlage ist fertig eingerichtet für die Erstellung des Praktikumsberichts 5. Semester KWM.
 
 ## LaTex Befehle
 ```latex
