@@ -4,6 +4,8 @@ Weitere Vorlagen für die Bachelorarbeit sind verfügbar unter: https://github.c
 
 Editieren und erstellen von Dokumenten (auch kollaborative online möglich) mit https://overleaf.com/
 
+Weiterführende Informationen: https://fanatical-theater-a64.notion.site/LaTex-Einf-hrung-5cdae310de824302a16598e9cd7481be
+
 ## LaTex Befehle
 ```latex
 \include{folder/filename} % File einfügen (Kapitel in eigenem File)
