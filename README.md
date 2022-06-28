@@ -43,10 +43,8 @@ $$(a+b)$$ ... % Mathematische Formeln freigestellt
 % !b   Bild am Ende der Seite erzwingen
 % !t   Bild am Anfang der Seite erzwingen
 % htbp   Versuche Bild hier einzufügen, wenn nicht möglich am Anfang der Seite, wenn nicht möglich am Ende der Seite, wenn nicht möglich eigene Seite
-```
 
 % Bilder inline im Text
-```latex
 \begin{wrapfigure}{R}{0.5\textwidth}
     \centering
     \includegraphics[width=.4\textwidth]{logo}
